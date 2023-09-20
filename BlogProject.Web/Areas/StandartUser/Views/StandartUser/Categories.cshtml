@@ -1,0 +1,17 @@
+﻿@model List<CategoryListVm>
+
+@{
+    Layout = "_LoginLayout";
+}
+
+@foreach (var item in Model)
+{
+    <img height="80" src="@item.ImagePath">
+    <div class="pl-3">
+        <h2 class="mb-2 h6 font-weight-bold">
+            <a class="text-dark"  asp-action="CategoriesDetail"  asp-route-id="@item.Id">@item.CategoryName</a>
+        </h2>
+
+        <small class="text-muted">@DateTime.Now</small>
+    </div>
+}

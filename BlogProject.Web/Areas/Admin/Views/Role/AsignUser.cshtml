@@ -1,0 +1,97 @@
+﻿@using BlogProject.Models.VMs.RoleVM;
+@model RoleAsignUserVm
+@{
+    ViewData["title"] = "AsignUser";
+}
+
+
+
+<h1> AsignUser </h1>
+
+
+
+<form method="post">
+    <input hidden asp-for="RoleId" />
+
+
+
+    <div class="form-group">
+        <label asp-for="RoleName" class="control-label"></label>
+        <input asp-for="RoleName" />
+    </div>
+    <table>
+        <thead>
+            <tr>
+                Members
+            </tr>
+            <tr>
+                <td>
+                    Kullanıcı Adı
+                </td>
+                <td>
+                    Eposta Adresi
+                </td>
+                <td>
+                    Kayıtlı üyelerden çıkarmak için işaretleyiniz.
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var member in Model.Members)
+            {
+                <tr>
+                    <td>
+                        @member.UserName
+                    </td>
+                    <td>
+                        @member.Email
+                    </td>
+                    <td>
+                        <input type="checkbox" name="Remove" value="@member.Id" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <h1> </h1>
+    <table>
+        <thead>
+            <tr>
+                NonMembers
+            </tr>
+            <tr>
+                <td>
+                    Kullanıcı Adı
+                </td>
+                <td>
+                    Eposta Adresi
+                </td>
+                <td>
+                    Kayıtlı üyeleri eklemek için işaretleyiniz.
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var member in Model.NonMembers)
+            {
+                <tr>
+                    <td>
+                        @member.UserName
+                    </td>
+                    <td>
+                        @member.Email
+                    </td>
+                    <td>
+                        <input type="checkbox" name="AddIns" value="@member.Id" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+    <p>
+        <button type="submit"> Verileri Kaydet </button>
+    </p>
+</form>

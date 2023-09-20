@@ -1,0 +1,57 @@
+﻿@model ArticleDetailVm
+
+@{
+    Layout = "_LoginLayout";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Tatlılar</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/NesetHocaUygulamaSıcakİçecekler.styles.css" asp-append-version="true" />
+</head>
+<body class="bg-info">
+
+
+
+    <section class="container ">
+
+        <ul class=" d-flex flex-wrap justify-content-center list-group list-group-horizontal">
+
+
+
+            <li class="list-group-item mt-5 ">
+                <div class="card-group ">
+                    <div class="card " style="width: 18rem;">
+                        <img src="@Model.ImagePath" class="card-img-top" alt="...">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">@Model.Title</h5>
+                            <p class="card-text">@Model.Content </p>
+                            <p class="card-text">@Model.CreatedDate </p>
+                            <p class="card-text">@Model.UserName </p>
+
+                        </div>
+                    </div>
+
+            </li>
+
+
+        </ul>
+
+
+
+
+
+    </section>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+</body>
+</html>

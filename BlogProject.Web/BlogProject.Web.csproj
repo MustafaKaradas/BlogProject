@@ -1,0 +1,151 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\homepage\assets\css\main.css.map" />
+    <None Include="wwwroot\homepage\assets\js\functions.js" />
+    <None Include="wwwroot\homepage\assets\js\vendor\aos.js" />
+    <None Include="wwwroot\homepage\assets\js\vendor\bootstrap-toc.js" />
+    <None Include="wwwroot\homepage\assets\js\vendor\bootstrap.min.js" />
+    <None Include="wwwroot\homepage\assets\js\vendor\jquery.min.js" />
+    <None Include="wwwroot\homepage\assets\js\vendor\popper.min.js" />
+    <None Include="wwwroot\homepage\assets\js\vendor\prism.js" />
+    <None Include="wwwroot\homepage\assets\js\vendor\share.js" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\bootstrap-grid.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\bootstrap-reboot.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\bootstrap-user-variables.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\bootstrap.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_alert.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_background-variant.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_badge.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_border-radius.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_box-shadow.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_breakpoints.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_buttons.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_caret.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_clearfix.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_float.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_forms.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_gradients.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_grid-framework.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_grid.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_hover.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_image.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_list-group.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_lists.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_nav-divider.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_navbar-align.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_pagination.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_reset-text.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_resize.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_screen-reader.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_size.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_table-row.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_text-emphasis.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_text-hide.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_text-truncate.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_transition.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\mixins\_visibility.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_align.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_background.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_borders.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_clearfix.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_display.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_embed.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_flex.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_float.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_position.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_screenreaders.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_shadows.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_sizing.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_spacing.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_text.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\utilities\_visibility.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_alert.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_badge.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_breadcrumb.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_button-group.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_buttons.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_card.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_carousel.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_close.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_code.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_custom-forms.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_dropdown.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_forms.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_functions.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_grid.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_images.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_input-group.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_jumbotron.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_list-group.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_media.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_mixins.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_modal.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_nav.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_navbar.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_pagination.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_popover.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_print.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_progress.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_reboot.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_root.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_tables.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_tooltip.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_transitions.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_type.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_utilities.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\bootstrap\source\_variables.scss" />
+    <None Include="wwwroot\homepage\assets\scss\1-frameworks\_index.scss" />
+    <None Include="wwwroot\homepage\assets\scss\2-plugins\_index.scss" />
+    <None Include="wwwroot\homepage\assets\scss\3-base\_base.scss" />
+    <None Include="wwwroot\homepage\assets\scss\3-base\_index.scss" />
+    <None Include="wwwroot\homepage\assets\scss\3-base\_mixins.scss" />
+    <None Include="wwwroot\homepage\assets\scss\3-base\_variables.scss" />
+    <None Include="wwwroot\homepage\assets\scss\4-modules\_index.scss" />
+    <None Include="wwwroot\homepage\assets\scss\5-layout\_columns.scss" />
+    <None Include="wwwroot\homepage\assets\scss\5-layout\_containers.scss" />
+    <None Include="wwwroot\homepage\assets\scss\5-layout\_extends.scss" />
+    <None Include="wwwroot\homepage\assets\scss\5-layout\_footer.scss" />
+    <None Include="wwwroot\homepage\assets\scss\5-layout\_header.scss" />
+    <None Include="wwwroot\homepage\assets\scss\5-layout\_index.scss" />
+    <None Include="wwwroot\homepage\assets\scss\5-layout\_layout.scss" />
+    <None Include="wwwroot\homepage\assets\scss\main.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.2.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.21" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogProject.BLL\BlogProject.BLL.csproj" />
+    <ProjectReference Include="..\BlogProject.DAL\BlogProject.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\StandartUser\Data\" />
+    <Folder Include="Areas\StandartUser\Models\" />
+  </ItemGroup>
+
+</Project>
